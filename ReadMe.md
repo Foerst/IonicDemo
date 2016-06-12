@@ -107,6 +107,7 @@ ps:椭圆形的name和value值为插件的类名。
 		sudo ionic plugin add customPlugins/cordova-plugin-login//安装插件
 		sudo ionic build ios //编译项目
 	然后，用Xcode打开IonicDemo工程文件运行项目。效果图如下图所示。
+	
 	![img](http://7xql77.com1.z0.glb.clouddn.com/2016-06-08%2017_33_58.gif)
 	
 	ps:以后每次编辑过插件文件后，都要重新执行以下命令：

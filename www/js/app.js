@@ -34,7 +34,7 @@ angular.module('starter', ['ionic'])
             alert(data);
         }
             //跳转native参数 , view:需要跳转的视图
-            parameter = {"view": {name:"login",userId:"12305060"}}
+        parameter = {"view": {name:"login",userId:"12305060"}}
         cordova.plugin.Login.login(successCallBack,errorCallBack, parameter);
     }
 });
